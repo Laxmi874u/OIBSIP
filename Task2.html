@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjiv Bajaj Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .cover {
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 50%; 
+            max-width: 90%; 
+            background-color: #000; 
+            color: #fff; 
+            text-align: center;
+            margin-bottom: 20px; 
+        }
+
+        #ratan-title {
+            font-weight: bold; 
+            text-decoration: underline; 
+            margin-bottom: 10px; 
+            font-size: 24px; 
+        }
+
+        #ratan-image {
+            margin-top: 20px; 
+        }
+
+        #ratan-image img {
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 10px; 
+        }
+
+        #image-description {
+            margin-top: 20px; 
+            font-size: 16px; 
+            color: #fff; 
+        }
+
+        
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        #marquee-wrapper {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite; 
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="cover">
+    <div id="marquee-wrapper">
+        <h1 id="ratan-title"><span style="animation: marquee 10s linear infinite;">Sanjiv Bajaj Image - Born on November 2, 1969, Sanjiv Bajaj is among one of the most successful Indian businessmen, investors, and philanthropists.</span></h1>
+    </div>
+
+    <div id="ratan-image">
+        <img src="img.jpg" alt="Sanjiv Bajaj">
+    </div>
+
+    <div id="image-description">
+        <p>Born on November 2, 1969, Sanjiv Bajaj is among one of the most successful Indian businessmen, investors, and philanthropists. He is the Chairman of Bajaj Finance Limited and the Chairman and Managing Director of Bajaj Finserv Limited, the holding group company for all the financial services business of the Bajaj Group. The Bajaj Group is one of the oldest and largest conglomerates in India. Bajaj Finserv consisting of lending and insurance companies, has an annual revenue of over 410 crores USD for FY23. Under his leadership, Bajaj Finserv has emerged as one of India’s leading diversified financial services companies with solutions across lending, insurance, and wealth advisory category. With a consumer-first, digital approach and a culture focused on excellence through innovative disruption, Sanjiv is known for pioneering digital consumer financing in India, which helped transform the entire landscape of the financial services space.</p>
+    </div>
+</div>
+
+</body>
+</html>
